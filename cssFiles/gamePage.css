@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url("/images/bg2.jpg");
+  background-size: 100% 100%;
+}
+.allData {
+  background-color: #d6e4e1;
+  border-radius: 20%;
+}
+.name {
+  display: inline-block;
+  margin-left: 50px;
+  font: italic bold 35px serif;
+  text-shadow: 4px 3px 6px #537ef3;
+  text-align: center;
+}
+.PopUp {
+  position: absolute;
+  z-index: 5;
+  width: 50%;
+  height: 75%;
+  margin: 50px 300px;
+  background-color: #203a53;
+  border-bottom-left-radius: 40%;
+  border-top-left-radius: 80%;
+  border-bottom-right-radius: 40%;
+  border-top-right-radius: 80%;
+  display: none;
+  text-align: center;
+}
+.PopUp h1 {
+  color: #fcfcf4;
+  background-color: yellowgreen;
+  width: 90%;
+  overflow: hidden;
+  text-align: center;
+  margin: 60px auto;
+  font-size: 60px;
+  border-top-right-radius: 80%;
+  border-top-left-radius: 80%;
+}
+.PopUp p {
+  font-size: 40px;
+  width: 50%;
+  color: #530566;
+  margin: 10px auto;
+  background-color: #fcab9d;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px double dimgray;
+  outline: 2px dashed #dccedd;
+}
+.PopUp p span {
+  background-color: thistle;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  border: 3px dashed rgb(70, 77, 92);
+}
+.PopUp a {
+  display: inline-block;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+  margin: 40px;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  color: #6b0362;
+  border-bottom: 2px solid #831f72;
+  border-left: 2px solid #0cb95a;
+  border-top: 2px solid #831f72;
+  border-right: 2px solid #0cb95a;
+  outline: 2px solid #f7f3f6;
+
+  background-color: #dbb5ca;
+  transition: ease-in-out 0.5s;
+}
+.PopUp a:hover {
+  cursor: pointer;
+  background-color: #754360;
+  color: #fff;
+  transform: scale(1.1);
+}
+span {
+  color: #15852d;
+}
